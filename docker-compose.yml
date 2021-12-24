@@ -1,18 +1,6 @@
 version: "3"
 
 services:
-  postgres:
-    image: postgres
-    environment:
-      POSTGRES_DB: "strapidb"
-      POSTGRES_PASSWORD: "@Strapilabsadmin"
-    ports:
-      - "15432:5432"
-    volumes:
-      - ./data:/var/lib/postgresql/data
-    networks:
-      - ecosystem-network
-
   pgadmin:
     image: dpage/pgadmin4
     environment:
@@ -20,8 +8,6 @@ services:
       PGADMIN_DEFAULT_PASSWORD: "12345678"
     ports:
       - "16543:80"
-    depends_on:
-      - postgres
     networks:
       - ecosystem-network
 
