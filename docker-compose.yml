@@ -4,9 +4,8 @@ services:
   postgres:
     image: postgres
     environment:
-      POSTGRES_DB: "strapidb"
-      POSTGRES_USER: strapilabadmin@strapi-labs2
-      POSTGRES_PASSWORD: "@Strapilabsadmin"
+      POSTGRES_DB: "audax_datasheets"
+      POSTGRES_PASSWORD: "strapi"
     ports:
       - "15432:5432"
     volumes:

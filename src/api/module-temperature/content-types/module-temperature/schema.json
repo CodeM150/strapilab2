@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "module_temperatures",
+  "info": {
+    "singularName": "module-temperature",
+    "pluralName": "module-temperatures",
+    "displayName": "Module temperature"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "parameter": {
+      "type": "text"
+    }
+  }
+}

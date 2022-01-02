@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "drive_currents",
+  "info": {
+    "singularName": "drive-current",
+    "pluralName": "drive-currents",
+    "displayName": "Drive current"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "parameter": {
+      "type": "text"
+    }
+  }
+}

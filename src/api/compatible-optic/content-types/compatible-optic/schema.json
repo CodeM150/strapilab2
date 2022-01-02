@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "compatible_optics",
+  "info": {
+    "singularName": "compatible-optic",
+    "pluralName": "compatible-optics",
+    "displayName": "Compatible optic"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "manufacturer": {
+      "type": "string"
+    }
+  }
+}

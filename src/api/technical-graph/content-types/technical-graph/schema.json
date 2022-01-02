@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "technical_graphs",
+  "info": {
+    "singularName": "technical-graph",
+    "pluralName": "technical-graphs",
+    "displayName": "Technical graph"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "datasheets",
+  "info": {
+    "singularName": "datasheet",
+    "pluralName": "datasheets",
+    "displayName": "Datasheet",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "uuid": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::application.application",
+      "mappedBy": "datasheet_id"
+    }
+  }
+}

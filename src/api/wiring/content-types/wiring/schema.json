@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "wirings",
+  "info": {
+    "singularName": "wiring",
+    "pluralName": "wirings",
+    "displayName": "Wiring"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "specification_item": {
+      "type": "string"
+    }
+  }
+}

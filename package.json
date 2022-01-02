@@ -1,5 +1,5 @@
 {
-  "name": "datasheets",
+  "name": "audax-datasheets",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -9,8 +9,11 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "babel-eslint": "^10.1.0"
+  },
   "dependencies": {
+    "@strapi/plugin-documentation": "4.0.1",
     "@strapi/plugin-i18n": "4.0.1",
     "@strapi/plugin-users-permissions": "4.0.1",
     "@strapi/strapi": "4.0.1",

@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mechanical_drawings",
+  "info": {
+    "singularName": "mechanical-drawing",
+    "pluralName": "mechanical-drawings",
+    "displayName": "Mechanical drawing"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

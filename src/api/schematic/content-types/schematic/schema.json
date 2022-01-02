@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "schematics",
+  "info": {
+    "singularName": "schematic",
+    "pluralName": "schematics",
+    "displayName": "Schematic"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

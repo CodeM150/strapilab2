@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "technical_informations",
+  "info": {
+    "singularName": "technical-information",
+    "pluralName": "technical-informations",
+    "displayName": "Technical information"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cct": {
+      "type": "string"
+    }
+  }
+}
